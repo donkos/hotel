@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="beds" table="x_hotel_rooms" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>beds</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Single Twin</label>
+            <language>en</language>
+            <name>x_hotel_rooms</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-11 17:41:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>60ca5d414f0213002e1bff6f9310c720</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-11 17:41:21</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>beds</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Double Twin</label>
+            <language>en</language>
+            <name>x_hotel_rooms</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-11 17:41:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>40da9d054f0213002e1bff6f9310c743</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-11 17:41:33</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>beds</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Single Queen</label>
+            <language>en</language>
+            <name>x_hotel_rooms</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-11 17:41:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e7dadd054f0213002e1bff6f9310c72a</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-11 17:41:59</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>beds</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Double Queen</label>
+            <language>en</language>
+            <name>x_hotel_rooms</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-11 17:41:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>96ea5d054f0213002e1bff6f9310c7a2</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-11 17:42:03</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>beds</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Single King</label>
+            <language>en</language>
+            <name>x_hotel_rooms</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-11 17:42:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bcfa51454f0213002e1bff6f9310c70b</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-11 17:42:14</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>beds</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Double King</label>
+            <language>en</language>
+            <name>x_hotel_rooms</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-11 17:42:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>550bd9c14f0213002e1bff6f9310c7f9</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-11 17:42:24</sys_updated_on>
+            <value>6</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>beds</element>
+            <name>x_hotel_rooms</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-11 17:41:16</sys_created_on>
+            <sys_id>88da9d054f0213002e1bff6f9310c73b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>beds</sys_name>
+            <sys_package display_value="Hotel" source="x_hotel">a8f395beebc522004fcde08a5206fe2e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Hotel">a8f395beebc522004fcde08a5206fe2e</sys_scope>
+            <sys_update_name>sys_choice_x_hotel_rooms_beds</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-11 17:41:16</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

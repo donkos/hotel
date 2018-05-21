@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="rooms" max_length="40" name="x_hotel_rooms" type="collection">
+        <element choice="1" label="Beds" max_length="40" name="beds" type="choice">
+            <choice>
+                <element label="Double King" value="6"/>
+                <element label="Double Queen" value="4"/>
+                <element label="Double Twin" value="2"/>
+                <element label="Single King" value="5"/>
+                <element label="Single Queen" value="3"/>
+                <element label="Single Twin" value="1"/>
+            </choice>
+        </element>
+        <element choice="3" default="1" label="Floor" max_length="4" name="floor" type="integer">
+            <choice>
+                <element label="1" sequence="0" value="1"/>
+                <element label="2" sequence="1" value="2"/>
+                <element label="3" sequence="2" value="3"/>
+                <element label="4" sequence="3" value="4"/>
+                <element label="5" sequence="4" value="5"/>
+                <element label="6" sequence="5" value="6"/>
+                <element label="7" sequence="6" value="7"/>
+                <element label="8" sequence="7" value="8"/>
+                <element label="9" sequence="8" value="9"/>
+                <element label="10" sequence="9" value="10"/>
+                <element label="11" sequence="10" value="11"/>
+                <element label="12" sequence="11" value="12"/>
+            </choice>
+        </element>
+        <element choice="1" label="Room" max_length="10" name="room" type="integer">
+            <choice/>
+        </element>
+    </element>
+</database>
